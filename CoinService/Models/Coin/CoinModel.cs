@@ -7,6 +7,7 @@ namespace CoinService.Models.Coin
 {
 	public class CoinModel
 	{
+		//todo bunu nerede kullanabilirdik? 
 		public int id { get; set; }
 		public string name { get; set; }
 		public string symbol { get; set; }

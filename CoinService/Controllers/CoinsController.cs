@@ -31,6 +31,7 @@ namespace CoinService.Controllers
 				var request = new RestRequest(Method.GET);
 				IRestResponse response = client.Execute(request);
 				status = true;
+
 				return Ok(new {data= response.Content, status=status });
 
 
